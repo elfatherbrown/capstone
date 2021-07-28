@@ -1,0 +1,19 @@
+Package: capstone
+Title: Base package for the coursera capstone course
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alejandro",
+           family = "Borges Sanchez",
+           role = c("aut", "cre"),
+           email = "alex@borges.consulting",
+           comment = c(ORCID = "0000-0001-6726-499X"))
+Description: Downloads, explores and documents the data for the class.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
