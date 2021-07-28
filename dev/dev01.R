@@ -1,7 +1,7 @@
 #Basic package setup
 
 usethis::use_vignette("explore")
-
+usethis::use_vignette("first_approach")
 #Data setup
 
 # A Coursera-SwiftKey.zip file has been added to the ../capstone raw data

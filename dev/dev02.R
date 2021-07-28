@@ -1,5 +1,3 @@
 usethis::use_package("pins")
 usethis::use_package("tidyverse",type="depends")
-library(pins)
-pins::board_register_local()
-raw_data_dir<-paste0(here::here(),"/../capstone raw data/")
+usethis::use_package("tidytext")
